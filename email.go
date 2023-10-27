@@ -18,6 +18,8 @@ type EmailDetails struct {
 	To string `json:"to"`
 	// Username is the recipient's username.
 	Username string `json:"username"`
+	// UserID is the recipient's user ID.
+	UserID string `json:"user_id"`
 }
 
 type System struct {
